@@ -1,0 +1,22 @@
+package pettern;
+
+public class for5 {
+	public static void main(String args[]) {
+		for (int i = 0; i <= 5; i++) {				//pattern 1
+			for (int j = 5; j >= 0; j--) {
+				System.out.print(j);
+
+			}
+			System.out.println();
+		}											//pattern 1
+		System.out.println("\n");
+		for (int a = 5; a >= 0; a--) {				//pattern 2
+			for (int b = 5; b >= 0; b--) {
+				System.out.print(a);
+
+			}
+			System.out.println();
+		}											//pattern 2
+	}
+
+}
