@@ -1,4 +1,4 @@
-package basic;
+package keywords;
 
 public class areaofcircal {
 	public static void main(String args[]) {
