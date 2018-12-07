@@ -7,7 +7,7 @@ public class exception4 {
 			System.out.println("a = " + a);
 			int b = 25 / a;
 			int c[] = { 1 };
-			c[0]=21;
+			c[0] = 21;
 		} catch (ArithmeticException e) {
 			System.out.println("ARTM exception occures");
 		} catch (ArrayIndexOutOfBoundsException a) {

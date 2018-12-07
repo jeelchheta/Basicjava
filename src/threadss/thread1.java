@@ -13,8 +13,10 @@ public class thread1 {
 
 class A implements Runnable {
 	public void run() {
-		for (int i = 0; i < 10; i++) {
-			System.out.println("thread A " + i);
+		for (int i = 0; i < 100; i++) {
+			if (i % 2 == 0) {
+				System.out.println("thread A " + i);
+			}
 		}
 	}
 
@@ -22,8 +24,10 @@ class A implements Runnable {
 
 class B implements Runnable {
 	public void run() {
-		for (int i = 0; i < 10; i++) {
-			System.out.println("thread B " + i);
+		for (int i = 0; i < 100; i++) {
+			if (i % 2 == 1) {
+				System.out.println("thread B " + i);
+			}
 		}
 	}
 }
